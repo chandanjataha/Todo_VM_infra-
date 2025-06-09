@@ -1,0 +1,19 @@
+variable "resource_group_name" {}
+variable "resource_group_location" {}
+variable "virtual_network_name" {}
+variable "azurerm_subnet" {}
+variable "network_interface" {}
+variable "pip" {}
+variable "sql_server" {}
+variable "administrator_login" {}
+variable "administrator_login_password" {}
+variable "sql_database_name" {}
+
+variable "vm_name" {}
+variable "admin_username" {}
+variable "vm_size" {}
+variable "image_publisher" {}
+variable "image_offer" {}
+variable "image_sku" {}
+variable "image_version" {}
+variable "admin_password" {}
