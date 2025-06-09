@@ -1,15 +1,15 @@
 variable "resource_group_name" {}
 variable "resource_group_location" {}
 variable "virtual_network_name" {}
-variable "azurerm_subnet" {}
-variable "network_interface" {}
+variable "network_interface_frontend" {}
+variable "network_interface_backend" {}
 variable "pip" {}
 variable "sql_server" {}
 variable "administrator_login" {}
 variable "administrator_login_password" {}
 variable "sql_database_name" {}
-
-variable "vm_name" {}
+variable "frontend_vm" {}
+variable "backend_vm" {}
 variable "admin_username" {}
 variable "vm_size" {}
 variable "image_publisher" {}
